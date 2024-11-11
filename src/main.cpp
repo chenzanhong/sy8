@@ -27,9 +27,9 @@ int main() {
 	
 		try { 
 			double result = calc.calculate(num1, num2, getOperation(operation)); 
-			cout << "Result: " << result << endl; 
+			cout << "Result is : " << result << endl; 
 		} catch (const invalid_argument& e) { 
-			cout << "Error: " << e.what() << endl; 
+			cout << "Error is : " << e.what() << endl; 
 		} 
 		
 		cout << "Do you want to continue using this calculator (y/n): "; 
