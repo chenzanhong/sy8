@@ -16,7 +16,7 @@ int main() {
 	double num1, num2; 
 	char operation; 
 	char continueCalculation = 'y'; 
-	cout<<"欢迎您使用计算器！"<<endl;
+	cout<<"欢迎您使用计算器！！！"<<endl;
 	while (continueCalculation == 'y' || continueCalculation == 'Y') { 
 		cout << "Please enter the first number:\n"; 
 		cin >> num1; 
